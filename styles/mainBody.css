@@ -1,0 +1,25 @@
+.main{
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.main__image{
+  align-self: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.lists{
+  border: 1px solid black;
+  display:flex;
+  flex-direction: row;
+}
+
+.lists__list{
+  border: 1px solid black;
+  flex-basis: 30%;
+  margin: 25px;
+}
