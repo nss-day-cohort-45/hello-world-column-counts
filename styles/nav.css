@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 .header {
   display: flex;
   align-items: center;
@@ -7,6 +9,15 @@
 .header img {
   width: 120px;
   margin-left: 1em;
+}
+
+.header__container {
+  margin-bottom: 0.75em;
+}
+
+.site-title h1 {
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
 }
 
 .nav {
