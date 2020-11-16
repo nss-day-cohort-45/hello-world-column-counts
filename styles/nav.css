@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #CC87DA;
+}
+
+.header img {
+  width: 120px;
+  margin-left: 1em;
+}
+
+.nav {
+  display: flex;
+  margin-left: 2em;
+  flex-wrap: wrap;
+}
+
+.nav__btn {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  margin: 0 1em;
+}
+
+.nav__btn:hover {
+  color: #555555;
+}
+
+.nav__btn--active {
+  border-bottom: 2px solid black;
+}
+
+.nav__btn--active:hover {
+  border-bottom: 2px solid #555555;
+}
+
+
+

@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/./styles/main.css">
   <title>Column Count Country Concierge - Canada</title>
 </head>
 <body>
   <header class="header">
     <!-- logo -->
-    <img src="#" alt="CCCC Logo">
+    <img src="/./images/countLogo.jpg" alt="CCCC Logo">
     <!-- navbar -->
     <nav class="nav">
-      <a href="./index.html" class="nav__btn">Home</a>
-      <a href="canada.html" class="nav__btn">Canada</a>
+      <a href="/./index.html" class="nav__btn">Home</a>
+      <a href="canada.html" class="nav__btn nav__btn--active">Canada</a>
       <a href="china.html" class="nav__btn">China</a>
       <a href="greece.html" class="nav__btn">Greece</a>
       <a href="ireland.html" class="nav__btn">Ireland</a>
@@ -21,12 +24,41 @@
   </header>
 
   <main class="main">
-    <div class="main__image"><img src="#" alt="Canada"></div>
+    <div class="main__image"><img src="/./images/canada.png" alt="Canada"></div>
     <h1 class="main__country-name">Canada - The Great Frozen North</h1>
     <article class="lists">
-      <section class="lists__list"><h3>Cities to Visit</h3></section>
-      <section class="lists__list"><h3>Landmarks to Visit</h3></section>
-      <section class="lists__list"><h3>Notable Canadians</h3></section>
+      <section class="lists__list">
+        <h3>Cities to Visit</h3>
+        <ul class="city-list">
+          <a href="https://www.google.com/maps/place/Toronto,+ON,+Canada/" target="_blank"><li>Toronto (Ontario)</li></a>
+          <a href="https://www.google.com/maps/place/Vancouver,+BC,+Canada/" target="_blank"><li>Vancouver (British Columbia)</li></a>
+          <a href="https://www.google.com/maps/place/Montreal,+QC,+Canada/" target="_blank"><li>Montreal (Quebec)</li></a>
+          <a href="https://www.google.com/maps/place/Winnipeg,+MB,+Canada/" target="_blank"><li>Winnipeg (Manitoba)</li></a>
+          <a href="https://www.google.com/maps/place/Edmonton,+AB,+Canada/" target="_blank"><li>Edmonton (Alberta)</li></a>
+          <a href="https://www.google.com/maps/place/Halifax,+NS,+Canada/" target="_blank"><li>Halifax (Nova Scotia)</li></a>
+        </ul>
+      </section>
+      <section class="lists__list">
+        <h3>Landmarks to Visit</h3>
+        <ul class="landmarks-list">
+          <a href="https://en.wikipedia.org/wiki/CN_Tower" target="_blank"><li>CN Tower</li></a>
+          <a href="https://en.wikipedia.org/wiki/Banff_National_Park" target="_blank"><li>Banff National Park</li></a>
+          <a href="https://en.wikipedia.org/wiki/Hockey_Hall_of_Fame" target="_blank"><li>Hockey Hall of Fame</li></a>
+          <a href="https://en.wikipedia.org/wiki/Niagara_Falls" target="_blank"><li>Niagara Falls</li></a>
+          <a href="https://www.travelalberta.com/ca/listings/vegreville-pysanka-5217/" target="_blank"><li>The World's Largest Easter Egg</li></a>
+        </ul>
+      </section>
+      <section class="lists__list">
+        <h3>Notable Canadians</h3>
+        <ul class="citizens-list">
+          <a href="https://en.wikipedia.org/wiki/Alex_Trebek" target="_blank"><li>Alex Trebek</li></a>          
+          <a href="https://en.wikipedia.org/wiki/Wayne_Gretzky" target="_blank"><li>Wayne Gretzky</li></a>          
+          <a href="https://en.wikipedia.org/wiki/Pierre_Trudeau" target="_blank"><li>Pierre Trudeau</li></a>          
+          <a href="https://en.wikipedia.org/wiki/Martin_Short" target="_blank"><li>Martin Short</li></a>          
+          <a href="https://en.wikipedia.org/wiki/Seth_Rogen" target="_blank"><li>Seth Rogen</li></a>          
+          <a href="https://en.wikipedia.org/wiki/Neil_Young" target="_blank"><li>Neil Young</li></a>          
+        </ul>
+      </section>
     </article>
   </main>
 
