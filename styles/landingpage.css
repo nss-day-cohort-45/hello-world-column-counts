@@ -1,0 +1,27 @@
+.container {
+    background-color: #d39cd9;
+}
+
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.welcome-headline {
+    padding: 1em;
+}
+
+.flag {
+    border: 6px solid black;
+    width: 20em;
+}
+
+.flag-canada {
+    width: 24em;
+}
+
+.flag-ireland {
+    width: 26em;
+}
+
