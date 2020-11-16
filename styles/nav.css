@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   background-color: #CC87DA;
-  margin-bottom: 0.5em;
 }
 
 .header img {
@@ -13,7 +12,10 @@
 }
 
 .header__container {
+  margin-right: 120px;
   margin-bottom: 0.75em;
+  justify-self: center;
+  width: 100%;
 }
 
 .site-title h1 {
@@ -23,8 +25,8 @@
 
 .nav {
   display: flex;
-  margin-left: 2em;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav__btn {
