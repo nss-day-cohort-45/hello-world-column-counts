@@ -1,3 +1,7 @@
+.body-element {
+    background-color: #d39cd9;
+}
+
 .container {
     background-color: #d39cd9;
 }
@@ -14,8 +18,14 @@
 
 .flag {
     border: 6px solid black;
+    border-radius: 1em;
+    filter: grayscale();
     width: 20em;
     margin-bottom: 3em;
+}
+
+.flag:hover {
+    filter: none;
 }
 
 .flag-canada {
@@ -26,3 +36,6 @@
     width: 26em;
 }
 
+.footer-background {
+    background-color: #d39cd9;
+}
