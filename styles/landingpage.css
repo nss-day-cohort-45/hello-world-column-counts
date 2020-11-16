@@ -15,6 +15,7 @@
 .flag {
     border: 6px solid black;
     width: 20em;
+    margin-bottom: 3em;
 }
 
 .flag-canada {
